@@ -23,38 +23,40 @@
                 <option value="rusia">Rusia</option>
                 <option value="ukraine">Ukraine</option>
             </select>
-
             <input class="btn" type="submit" value="Submit" />
         </form>
     </div>
     <hr />
-    <div class="ex2">
+    <div class="ex1">
         <table>
             <thead>
                 <tr>
                     <th>Name</th>
-                    <th>Price</th>
-                    <th>Quantity</th>
+                    <th>Price<br />$/kg</th>
+                    <th>Quantity<br />kg</th>
                 </tr>
             </thead>
             <tbody>
                 <tr>
                     <td>Carrot</td>
-                    <td>$4/kg</td>
-                    <td>2kg</td>
+                    <td>4</td>
+                    <td><input type="number" id="c-quantity" name="carrot-quantity" required/></td>
                 </tr>
                 <tr>
                     <td>Tomato</td>
-                    <td>$2,4/kg</td>
-                    <td>1kg</td>
+                    <td>2.4</td>
+                    <td><input type="number" id="t-quantity" name="tomato-quantity" required/></td>
                 </tr>
                 <tr>
                     <td>Potato</td>
-                    <td>$5/kg</td>
-                    <td>20kg</td>
+                    <td>5</td>
+                    <td><input type="number" id="p-quantity" name="potato-quantity" required/></td>
                 </tr>
             </tbody>
         </table>
+        <button onclick="calculate()" class="btn">Calculate</button>
     </div>
+    <h1 id="price-h">The price is: </h1>
+    <script src="script.js"></script>
 </body>
 </html>

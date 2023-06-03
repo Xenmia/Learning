@@ -36,16 +36,46 @@ hr {
     margin: 4px;
 }
 
-.ex2 {
-    margin: 10px;
+.btn {
+    box-shadow: inset 0px 1px 3px 0px #91b8b3;
+    background: linear-gradient(to bottom, #768d87 5%, #6c7c7c 100%);
+    background-color: #768d87;
+    border-radius: 5px;
+    border: 1px solid #566963;
+    width: fit-content;
+    display: inline-block;
+    cursor: pointer;
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 11px 23px;
+    text-decoration: none;
+    text-shadow: 0px -1px 0px #2b665e;
 }
 
-.ex2 table thead {
+.btn:hover {
+    background: linear-gradient(to bottom, #6c7c7c 5%, #768d87 100%);
+    background-color: #6c7c7c;
+}
+
+.btn:active {
+    position: relative;
+    top: 1px;
+}
+
+.ex1 table {
+    font-size: 20px;
+    width: 300px;
+}
+
+.ex1 table input {
+    background-color: white;
+}
+
+.ex1 table thead {
     background-color: lightgray;
-    font-family: 'Canilari-ProMediumIt ☞';
+    text-align: center;
 }
 
-.ex2 table tbody{
-    background-color: lightgrey;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+.ex1 table tbody{
 }
