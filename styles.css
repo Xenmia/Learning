@@ -1,0 +1,51 @@
+﻿body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+hr {
+    border: none;
+    height: 20px;
+    background-color: dimgray;
+    margin: 20px 60px;
+}
+
+.ex1 form {
+    display: flex;
+    flex-direction: column;
+}
+
+.ex1 form label {
+    font-size: 24px;
+}
+
+.ex1 form input {
+    width: 300px;
+    font-size: 20px;
+    border-radius: 5px;
+    border: 0;
+    background-color: lightgray;
+    margin: 4px;
+}
+
+.ex1 form select {
+    width: 300px;
+    font-size: 20px;
+    border-radius: 5px;
+    border: 0;
+    background-color: lightgray;
+    margin: 4px;
+}
+
+.ex2 {
+    margin: 10px;
+}
+
+.ex2 table thead {
+    background-color: lightgray;
+    font-family: 'Canilari-ProMediumIt ☞';
+}
+
+.ex2 table tbody{
+    background-color: lightgrey;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
